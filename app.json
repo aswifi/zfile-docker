@@ -1,0 +1,8 @@
+{
+  "name": "zfile-docker",
+  "description": "zfile-docker",
+  "repository": "https://github.com/aswifi/zfile-docker",
+  "keywords": ["docker", "zfile"],
+  "stack": "container",
+  "success_url": "/"
+}
