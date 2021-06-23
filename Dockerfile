@@ -1,4 +1,4 @@
-lsiobase/alpine:3.14
+FROM lsiobase/alpine:latest
 
 ARG ZFILE_VERSION=3.1
 
