@@ -23,3 +23,5 @@ VOLUME ["/zfile", "/root/.zfile-new"]
 EXPOSE 8080
 
 ENTRYPOINT java -Xms10m -Xmx300m -Djava.security.egd=file:/dev/./urandom -jar zfile.jar
+
+CMD sh ./zfile/bin/start.sh && tail -f /dev/null
